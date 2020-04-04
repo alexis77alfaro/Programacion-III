@@ -1,0 +1,60 @@
+h2{
+    background-color: rgb(62, 230, 216);
+    text-align: center;
+}
+
+
+#Titulo{
+    background-color:rgb(37, 130, 218);
+    color: #fff;
+    text-align: center;
+    font-family: Arial;
+    
+}
+#definicion{
+    font-family: Arial;
+    text-align: center;
+    font-size: 18px;
+ 
+}
+
+#Instalacion{
+    font-family: Arial;
+    color: #fff;
+    background-color:#2dd649;
+    text-align: center;
+}
+
+#Pasos{
+    background-color: slateblue;
+    color: black;
+    text-align: center;
+    font-family: Arial;
+    color: #fff;
+}
+
+.Parrafos{
+    font-family: Arial;
+    text-align: center;
+  
+}
+
+.Video{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(41, 38, 233);
+    margin: auto;
+}
+
+.Video:hover{
+color: rgb(5, 5, 5);
+}
+
+.styleFoot{
+	font-size: 15px;
+	font-weight: bold;
+    text-align: center;
+}
+
+
