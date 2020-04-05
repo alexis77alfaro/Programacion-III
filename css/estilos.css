@@ -10,8 +10,15 @@
 	text-align: center;
 }
 
-.p,h5{
+#pw{
+	font-weight:bold;
 	color: black;
 	font-size: 12pt
+	
 }
 
+#hw{
+	color: black;
+	font-size: 15pt
+
+}
