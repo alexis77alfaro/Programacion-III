@@ -57,4 +57,15 @@ color: rgb(5, 5, 5);
     text-align: center;
 }
 
+#pw{
+	font-weight:bold;
+	color: black;
+	font-size: 12pt
+	
+}
 
+#hw{
+	color: black;
+	font-size: 15pt
+
+}
