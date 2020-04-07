@@ -1,0 +1,33 @@
+.parrafo1{
+    background-color: rgb(10, 141, 91);
+    text-align: center;
+    align-content: center;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+    float: left;
+    color: #ffffff;
+}
+
+.imagen1{
+    align-items: baseline;
+    float: left;
+    height: 480px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.imagen2{
+    align-items: baseline;
+    float: left;
+    
+}
+
+footer{
+    background-color: limegreen;
+    text-align: center;
+    color: linen;
+    text-transform: uppercase;
+    font-size: 20px;
+    clear: both;
+}
