@@ -1,4 +1,8 @@
-.parrafo1{
+#navbarSupportedContent ul li a:hover {
+    background-color: #ffffff;
+}
+
+.parrafo1 {
     background-color: rgb(10, 141, 91);
     text-align: center;
     align-content: center;
@@ -9,7 +13,7 @@
     color: #ffffff;
 }
 
-.imagen1{
+.imagen1 {
     align-items: baseline;
     float: left;
     height: 480px;
@@ -17,13 +21,12 @@
     margin-left: 20px;
 }
 
-.imagen2{
+.imagen2 {
     align-items: baseline;
     float: left;
-    
 }
 
-footer{
+footer {
     background-color: limegreen;
     text-align: center;
     color: linen;
