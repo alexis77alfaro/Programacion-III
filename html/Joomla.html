@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Investigacion</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/Style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #21bf73;">
+            <a class="navbar-brand" href="https://www.unab.edu.sv/"><img src="unabLogo.png" height="80px" width="90px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+            <div class="collapse navbar-collapse styleHead" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio<span class="sr-only" >(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Marco Teórico</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Manuales de Instalación
+		        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="WordPress.html">WordPress</a>
+                            <a class="dropdown-item" href="Drupal.html">Drupal</a>
+                            <a class="dropdown-item active" href="Joomla.html">Joomla</a>
+                            <a class="dropdown-item" href="iniciomoodle.html">Moodle</a>
+                            <a class="dropdown-item" href="Dolphin.html">Dolphin Social Media</a>
+                            <a class="dropdown-item" href="PrestaShop.html">PrestaShop</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Conclusiones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bibliografía</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav" style="float: right">
+                    <li>
+                        <a class="nav-link" href="#">¿Quienes somos?<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <!--		    <form class="form-inline my-2 my-lg-0">
+		    	<a class="nav-link" href="#">¿Quienes somos?<span class="sr-only">(current)</span></a>
+		    </form> -->
+            </div>
+        </nav>
+    </div>
+    <div id="body">
+        <div class="guia">
+            <p><b>Paso 1)</b> Principalmente necesitamos contar con los recursos necesarios para nuestra instalación.
+                Para eso primero debemos decargar la paquetería de Joomla. Esto lo podemos hacer desde la pagina principal
+                de Joomla a la cual podemos acceder escribiendo el link que vemos en la imagen o directamente <a href="https://downloads.joomla.org/">desde aqui</a>.
+            </p>
+            <p><b>Paso 2)</b> Luego es tan sencillo como presionar el boton donde dice Download. 
+                Recomendamos descargar la version mas estable(es la de la izquierda).</p>
+            <img src="imgJoomla/paso1.png">
+            <p>Al descargar el archivo nos quedará el siguiente paquete: </p>
+            <img src="imgJoomla/paso2.png">
+            <p><b>Paso 3)</b> Ahora que ya tenemos el paquete procedemos a descomprimirlo. Recomendamos elegir la opcion que se muestra
+            en la imagen, por motivos de comodidad.</p>
+            <img src="imgJoomla/paso3.png">
+            <p><b>Paso 4)</b> Al descomprimirlo nos quedará una carpeta, la cual vamos a renombrar tal como se muestra en la imagen: </p>
+            <img src="imgJoomla/paso4.png">
+            <p><b>Paso 5)</b> Ahora necesitamos dirigirnos a la carpeta raíz de Xampp. Necesitamos encontar la ruta que se muestra en la imagen.
+             Es decir, la carpeta htdocs dentro de xampp: </p>
+             <img src="imgJoomla/paso5.png">
+            <p><b>Paso 6)</b> Cuando ya estemos en esa carpeta, simplemente arrastramos la carpeta que descomprimimos: </p>
+            <img src="imgJoomla/paso6.png" width="70%">
+            <p><b>Paso 7)</b> Y luego procedemos a iniciar los servicios de Apache y de MySql desde el panel de control de xampp: </p>
+            <img src="imgJoomla/paso7.png">
+            <p><b>Paso 8)</b> Cuando los servicios ya esten iniciados vamos a dirigirnos a <i>phpmyadmin</i>. Para eso solo 
+            debemos escribir: localhost/phpmyadmin/, tal como se muestra a continuacion: </p>
+            <img src="imgJoomla/paso8.png">
+            <p><b>Paso 9)</b> Dentro del panel de administrador vamos a crear una nueva base de datos donde alojaremos Joomla. Damos en <i>"Nueva"</i>: </p>
+            <img src="imgJoomla/paso9.png">
+            <p><b>Paso 10)</b> Para la base de datos necesitamos un nombre y podemos ponerle el que deseemos. En nuestro caso sera <i>"joomla"</i>.</p>
+            <p><b>Paso 11)</b> Es importante seleccionar la opción <i>"Cotejamiento"</i>.</p>
+            <p><b>Paso 12)</b> Luego damos click en <i>"Crear"</i></p>
+            <img src="imgJoomla/paso10.png">
+            <p>Con la base de datos creada, ya podemos comenzar la instalacion de Joomla. Para eso escribimos en la barra 
+                del buscador de nuestro navegador, la siguiente direccion: localhost/joomla, tal como se muestra: </p>
+            <img src="imgJoomla/paso11.png">
+            <p>Eso nos llevará al asistente de instalación web de Joomla. Deberian ver algo como: </p>
+            <img src="imgJoomla/paso12.png">
+            <p><b>Paso 13)</b> Estando dentro del asistente de instalacion simplemente es de seguir los pasos que te solicitan.<br>
+                Primeramente un nombre para el sitio.
+            </p>
+            <p><b>Paso 14)</b> Luego debemos proporcionar un correo electronico donde se enviaran las configuraciones del sitio.</p>
+            <p><b>Paso 15)</b> Escribimos un nombre de usuario el cual utilizaremos para acceder al panel de administracion de Joomla.</p>
+            <p><b>Paso 16)</b> Tambien proporcionamos una contraseña y luego reescribimos esta misma a modo de confirmacion. </p>
+            <p><b>Paso 17)</b> Luego damos click en <i>Siguiente</i></p>
+            <img src="imgJoomla/paso13.png">
+            <p><b>Paso 18)</b> La siguiente pestaña tambien es facil de completar. En el nombre de Hospedaje escribimos <i>localhost</i>.</p>
+            <p><b>Paso 19)</b> En los siguientes Usuario y Contraseña debemos proporcionar los mismos datos con los que nos logueamos en MYSQL.</p>
+            <p><b>Paso 20)</b> Luego establecemos el nombre de la base de datos, donde utilizaremos la que creamos anterirormente. Colocamos es mismo nombre. </p>
+            <p><b>Paso 21)</b> Damos click en <i>Siguiente</i></p>
+            <img src="imgJoomla/paso14.png">
+            <p><b>Paso 22)</b> En la tercer y ultima pestaña simplemente damos click en <i>Instalar</i>.</p>
+            <img src="imgJoomla/paso15.png">
+            <p>A continuacion comenzara la instalación de Joomla. Solo debemos esperar.</p>
+            <img src="imgJoomla/paso16.png">
+            <p><b>Paso 23)</b> Finalmente Joomla ya está instalado en nuestro servidor local. Pero antes de empezar 
+            a utilizarlo debemos asegurarnos de eliminar la carpeta <i>installation</i>, que se encuentra dentro de la carpeta <i>joomla</i> que copiamos en htdocs de xampp.</p>
+            <img src="imgJoomla/paso17.png">
+        </div>
+    </div>
+    <footer class="page-footer font-small" style="background-color: #21bf73;">
+        <div class="styleFoot">
+            <span>Programación III</span>
+            <span>© 2020</span>
+        </div>
+    </footer>
+</body>
+
+</html>
