@@ -5,22 +5,22 @@ h2{
 
 
 #Titulo{
-    background-color:rgb(122, 177, 228);
-    color: rgb(0, 0, 0);
+    background-color:rgb(107, 167, 223);
+    color:black;
     text-align: center;
     font-family: Arial;
-    
+    font-weight: bold;
 }
 #definicion{
     font-family: Arial;
     text-align: center;
     font-size: 18px;
- 
+
 }
 
 #Instalacion{
     font-family: Arial;
-    color: #fff;
+    color: black;
     background-color:#2dd649;
     text-align: center;
 }
@@ -30,25 +30,41 @@ h2{
     color: black;
     text-align: center;
     font-family: Arial;
-    color: #fff;
+    color: black;
 }
 
 .Parrafos{
     font-family: Arial;
     text-align: center;
-  
+   
 }
 
-.Video{
+.VideI{
     text-decoration: none;
     font-size: 15px;
     line-height: 20px;
     color: rgb(41, 38, 233);
     margin: auto;
+    text-align: left;
+    font-weight: bold;
 }
 
-.Video:hover{
-color: rgb(5, 5, 5);
+.VideoP{
+text-decoration: none;
+font-size: 15px;
+line-height: 20px;
+color: rgb(41, 38, 233);
+margin: auto;
+text-align: right;
+font-weight: bold;
+}
+
+.VideI a:hover{
+    color: black;
+}
+
+.VideoP a:hover{
+    color: black;
 }
 
 .styleFoot{
@@ -56,5 +72,4 @@ color: rgb(5, 5, 5);
 	font-weight: bold;
     text-align: center;
 }
-
 
