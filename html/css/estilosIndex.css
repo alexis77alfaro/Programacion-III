@@ -1,4 +1,4 @@
-.portada{
+.portada {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,11 +12,11 @@
     margin-bottom: 50px;
 }
 
-.portada img{
+.portada img {
     width: 15%;
 }
 
-.title{
+.title {
     text-align: center;
     margin: 10px;
     padding: 10px;
@@ -25,7 +25,7 @@
     width: 100%;
 }
 
-.title2{
+.title2 {
     text-align: center;
     font-weight: bold;
     font-size: 38px;
@@ -34,7 +34,7 @@
     padding: 10px;
 }
 
-.title3{
+.title3 {
     text-align: center;
     font-weight: bold;
     font-size: 34px;
@@ -43,19 +43,19 @@
     padding: 10px;
 }
 
-.portada a{
+.portada a {
     width: auto;
     text-decoration: none;
     color: #000;
 }
 
-.portada a:hover{
+.portada a:hover {
     text-decoration: underline;
     cursor: pointer;
     color: #de7119;
 }
 
-.contentPort{
+.contentPort {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,7 +63,7 @@
     margin: 5px 70px;
 }
 
-.contentPort .elemento{
+.contentPort .elemento {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,7 +75,7 @@
     width: 100%;
 }
 
-.elemento span{
+.elemento span {
     width: 90%;
     text-align: left;
     font-size: 24px;
@@ -84,7 +84,7 @@
     margin: 20px 0;
 }
 
-.elemento p{
+.elemento p {
     width: 90%;
     text-align: left;
     font-size: 18px;
@@ -92,14 +92,22 @@
     margin-bottom: 20px;
 }
 
-.elemento ul{
+.elemento ul {
     width: 90%;
 }
 
-.elemento ul li{
+.elemento ul li {
     text-align: left;
     font-size: 18px;
     padding: 5px;
     margin-bottom: 20px;
 }
 
+.bibliografia li a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.bibliografia li a:hover {
+    color: #FA4506;
+}
